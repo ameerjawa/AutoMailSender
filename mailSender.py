@@ -53,7 +53,7 @@ mail_content = 'Hi Friend  - I am looking for a new role and would appreciate yo
 
 #The mail addresses and password
 sender_address = 'test@gmail.com'
-sender_pass = 'yourAppPassword' # application password that you get from your gmail / apppassword , ! you can find more in gmailSettings/security:googlesignin
+sender_pass = 'yourAppPassword' # application password that you get from your gmail / apppassword , ! you can find more in gmailSettings/security:googlesignin  or https://myaccount.google.com/security , SEE image attached with this project images/apppasswordsImageExample.png
 #Setup the MIME
 message = MIMEMultipart()
 message['From'] = sender_address
